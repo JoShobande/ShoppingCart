@@ -1,0 +1,43 @@
+/* General */
+
+.container{
+  width: 70%;
+  margin: 0 auto;
+}
+
+
+
+
+/* Header Component */
+
+.flex-box{
+  display: flex;
+  justify-content: space-between;
+}
+
+.header input{
+  width: 400px;
+  height: 30px;
+}
+
+.header button{
+  height: 35px;
+  width: 100px;
+}
+.form-section{
+  margin-top: 40px;
+}
+
+.subtotal-section{
+  margin-top: 20px;
+}
+
+.bag-icon{
+  margin-top: 45px;
+}
+
+.veggy{
+  margin-top: 10px;
+}
+
+/* meda queries */
