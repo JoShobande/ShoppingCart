@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-import CardInfo from "./CartInfo"
+import CartInfo from "./CartInfo"
 
 
 
@@ -25,7 +25,7 @@ class Header extends Component{
                 </form>
             </div>      
             <div>
-              <CardInfo />
+              <CartInfo />
             </div>
               
         
