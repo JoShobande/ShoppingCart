@@ -1,17 +1,12 @@
 import React,{Component} from 'react';
+import CardInfo from "./CartInfo"
 
 
 
 
 class Header extends Component{
 
-    state = {
-        value:"",
-        
-        
-
-
-    }
+    
 
     render(props){
       return(
@@ -29,12 +24,8 @@ class Header extends Component{
                     <button>Search</button>
                 </form>
             </div>      
-            <div className="subtotal-section">
-                <p>No. Of Items : {this.props.numberOfItemsInCart} <br></br>
-                	Subtotal : {this.props.subTotal}</p>
-            </div>   
-            <div className="bag-icon">
-                <img src="./images/bag.png" alt="bag"/>
+            <div>
+              <CardInfo />
             </div>
               
         
