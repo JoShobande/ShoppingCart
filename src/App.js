@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Header from "./Components/Header"
-// import Home from "./Components/Home"
+import ProductList from "./Components/ProductList"
 import './App.css';
 
 

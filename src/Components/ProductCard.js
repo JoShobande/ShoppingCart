@@ -14,6 +14,9 @@ const ProductInfo = () => {
   )
 }
 const ProductQuantity = () => {
+   
+  
+
   return (
     <div>
       <div>
@@ -27,7 +30,7 @@ const ProductQuantity = () => {
 const Button = () => {
   return (
     <button>
-      Add To Card
+      Add To Cart
     </button>
   )
 }

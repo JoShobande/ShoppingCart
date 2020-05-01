@@ -3,7 +3,7 @@ import React from 'react';
 
 const CartInfo =()=>{
     return(
-        <div>
+        <div className="flex-box">
             <div className="subtotal-section">
                 <p>No. Of Items : 0 <br></br>
                     Subtotal : 0 </p>

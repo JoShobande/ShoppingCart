@@ -40,6 +40,15 @@
   margin-top: 10px;
 }
 
+.grid-content img{
+  width: 200px;
+}
+
+input{
+  width: 15px;
+  text-align: center;
+}
+
 /* home Component */
 .grid-content {
   display: grid;

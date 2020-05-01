@@ -8,7 +8,7 @@ class Header extends Component{
 
     
 
-    render(props){
+    render(){
       return(
         <div className="flex-box header">
             <div className="veggy">
