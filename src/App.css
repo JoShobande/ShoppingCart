@@ -54,15 +54,43 @@ input{
 }
 
 .info-wrapper{
+  position: absolute;
   width: 300px;
   height: 300px;
   border: 1px solid black;
   padding: 10px;
+  z-index: 2;
+  background-color: white;
+  margin-left: -300px;
+  margin-top: 10px;
   /* display: none; */
+
+
 }
 
-.info-wrapper img{
-    width: 80px;
+.empty_wrapper img{
+  width: 280px !important;
+  margin-top: -10px;
+}
+
+
+.empty_text{
+  text-align: center;
+  margin-top: -10px;
+}
+
+.info-wrapper button{
+  width: 300px;
+  height: 35px;
+  background-color: rgb(141, 78, 78);
+  border-radius: 5px;
+  border:none;
+  text-align: center;
+}
+
+.button_wrapper{
+  text-align: center;
+  margin-top: 60px;
 }
 
 
