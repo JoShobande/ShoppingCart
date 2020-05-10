@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 const ProductInfo = () => {
   return (
     <div>
@@ -14,15 +14,16 @@ const ProductInfo = () => {
   )
 }
 const ProductQuantity = () => {
+  let [quantity, addDec] = useState(0)
    
   
 
   return (
     <div>
       <div>
-        <button>-</button>
-        <input type="text" value="1"/>
-        <button>+</button>
+        <button onClick={()=>addDec(quantity--)}>-</button>
+        <input type="text" value={quantity}/>
+        <button onClick={()=>addDec(quantity++)}>+</button>
       </div>
     </div>
   )
